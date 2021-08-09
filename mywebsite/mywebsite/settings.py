@@ -76,9 +76,10 @@ WSGI_APPLICATION = 'mywebsite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-# ------------------------------------------
+# ------------------------------------------------------------------
 # Make sure the Correct DATABASE is uploaded
-# ------------------------------------------
+# And remember to run manage.py migrate to switch the server back!!!
+# ------------------------------------------------------------------
 
 # Use this DATABASE for testing on PC
 DATABASES = {
