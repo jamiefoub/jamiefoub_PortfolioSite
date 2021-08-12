@@ -3,6 +3,10 @@ body{
     background-color: #7a7a7a!important;
 }
 
+.para-main{
+    text-align: justify;
+}
+
 #profile-wrapper{
     text-align: center;
 }
@@ -45,8 +49,6 @@ ul{
 }
 
 .blast-wall-images{
-    width: 588px;
-    height: 480px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px 100px 0px 0px;
 }
+
