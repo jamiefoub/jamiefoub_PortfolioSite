@@ -15,6 +15,13 @@ body{
     margin-right: auto;
 }
 
+#Cross-Die{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul{
     padding: 0;
     list-style-type: none;
