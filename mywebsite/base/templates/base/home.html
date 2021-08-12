@@ -73,33 +73,6 @@
         </div>
 
         <br>
-        
-        <!--
-        <div class="row">
-
-            <div class="col-md-6">
-                <div class="card card-body h-100">
-                    <h5>How I Learn</h5>
-                    <hr>
-                    <p>I very much learn best by getting hands on with projects.</p>
-                    <p>extra extra</p>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card card-body h-100">
-                    <h5>My Short Term Goals</h5>
-                    <hr>
-                    <p>text here</p>
-                    <p>text here</p>
-                </div>
-            </div>
-
-        </div>
-
-        <br>
-
-        -->
 
         <div class="row">
 
@@ -107,8 +80,12 @@
             <div class="card card-body h-100">
                 <h5 id="titles">DESIGN OF A CROSS DIE FOR SHEET METAL FORMING PROCESS</h5>
                 <hr>
-                <img id="Cross-Die" src="{% static 'images/Cross_Die_Render_1.jpeg' %}">
-                <img id="Cross-Die" src="{% static 'images/Cross_Die_ABAQUS.gif' %}">
+
+                <div class="images-container">
+                        <img class="cross-die-images" src="{% static 'images/Cross_Die_Render_1.jpeg' %}" alt="Cross Die Assembly Render"> <!-- width="630" height="480"> -->
+                        <img class="cross-die-images" src="{% static 'images/Cross_Die_ABAQUS.gif' %}">
+                </div>
+                
                 <hr>
                 <h5 id="titles">4th Year Project</h5>
                 <p>I completed my 4th year individual project on the “DESIGN OF A CROSS DIE FOR SHEET METAL FORMING PROCESS”. In which I applied my Solid Works knowledge to produce CAD models of the complete DIE design as well as accompanying Solid Works component drawings. 
@@ -128,7 +105,7 @@
                 <div class="card card-body h-100">
                     <h5 id="titles">DESIGN OF BLAST AND FIRE WALL FOR NEW BUILD FPSO</h5>
                     <hr>
-                    <img id="Cross-Die" src="{% static 'images/Blast_Wall_Render_1.jpeg' %}">
+                    <img class="blast-wall-images" src="{% static 'images/Blast_Wall_Render_1.jpeg' %}">
                     <hr>
                     <h5 id="titles">5th Year Project</h5>
                     <p>For my 5th year group project, we were tasked with designing a fire and blast wall to separate modules on a new build FPSO, whilst optimising for a low cost and low weight design. 
