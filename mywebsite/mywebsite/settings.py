@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^pk51aulu@nsuf@x!xm9-6c4%+duqx+s@w_r=uc$)domqbd@vl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 #192.168.0.69
 ALLOWED_HOSTS = ['*']
@@ -82,22 +82,22 @@ WSGI_APPLICATION = 'mywebsite.wsgi.application'
 # ------------------------------------------------------------------
 
 # Use this DATABASE for testing on PC
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': BASE_DIR / 'db.sqlite3',
-#    }
-#}
-
-# Use this DATABASE on the server
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'OPTIONS': {
-            'read_default_file': '/PortfolioProject/auth/mysql.cnf',
-        },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# Use this DATABASE on the server
+#DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.mysql',
+#        'OPTIONS': {
+#            'read_default_file': '/PortfolioProject/auth/mysql.cnf',
+#        },
+#    }
+#}
 
 
 # Password validation
