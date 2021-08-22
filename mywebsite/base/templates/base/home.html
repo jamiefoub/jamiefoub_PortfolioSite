@@ -29,19 +29,17 @@
                 <div class="card card-body h-100">
                     <h4 class="titles">Master Of Mechanical Engineering Graduate: Actively Seeking Work</h4>
                     <hr>
-                    <p class="para-main"> Thank you for visiting my portfolio website! Here I aim to build this site to showcase the work I have completed whilst studying at university, as well as some projects I have done in my spare time.</p>
+                    <p class="para-main"> Thank you for visiting my portfolio website! This is a web showcase of some of the work I completed whilst studying at university. I’ve also included some projects I have completed  in my spare time. </p>
 
-                    <p class="para-main"> This site is built and maintained by myself. To run the website, I have set up a server using a raspberry pi. 
-                        This is set up at my house and is responsible for running the site as well as running other backend tasks such as periodically updating the dynamic IP address.
-                    </p>
+                    <p class="para-main"> To run the website, I have set up a server using a raspberry pi. This is responsible for running the site as well as running other backend tasks such as periodically updating the dynamic IP address. </p>
 
                     <p> My Key Skills: Solid Works CAD, ABAQUS FEA, MATLAB and Python</p>
 
                     <p> Contact me via e-mail: foubisterj@gmail.com</p>
 
-                    <ul class="social-links">
-                        <li> <a href="https://www.linkedin.com/in/jamie-foubister-690017153/"> <img class="social" src="{% static 'images/linkedin.png' %}"> </a> </li>
-                        <li> <a href="{% static 'extra/Jamie_Foubister_2021_CV.pdf' %}" download> <img class="social" src="{% static 'images/cv.png' %}"> </a> </li>
+                    <ul id="ul-social" class="social-links">
+                        <li class="li-social"> <a href="https://www.linkedin.com/in/jamie-foubister-690017153/"> <img class="social" src="{% static 'images/linkedin.png' %}"> </a> </li>
+                        <li class="li-social"> <a href="{% static 'extra/Jamie_Foubister_2021_CV.pdf' %}" download> <img class="social" src="{% static 'images/cv.png' %}"> </a> </li>
 			            <!-- <li><img class="social" src="{% static 'images/twitter.png' %}"></li> -->
                     </ul>
 
@@ -58,13 +56,10 @@
                     <h5 class="titles">My Experience and Education</h5>
                     <hr>
                     <p class="para-main"> I have recently graduated from the University of Aberdeen with a master’s degree in mechanical engineering, achieving a 2:1 classification. 
-                        During this time I have carried out two big projects as well as studying the prescribed courses, those being my 4th year individual project and 5th year group project.
+                        During this time I have carried out two big projects, those being my 4th year individual project and 5th year group project.  As well as studying the prescribed courses.
                     </p>
                     
-                    <p class="para-main"> Whilst studying the compulsory engineering courses, 
-                        I have also taken additional software development electives in Python and MATLAB over the years to build upon my programming skills. 
-                        
-                    </p>
+                    <p class="para-main"> Whilst studying the compulsory engineering courses, I have also taken additional software development electives in Python and MATLAB to build upon my programming skills. </p>
                                         
                 </div>
             </div>
@@ -74,9 +69,9 @@
                     <h5 class="titles">What I Know</h5>
                     <hr>
 
-                    <p class="para-main"> Over my time at university I have become used to many software packages, those being Solid Works CAD, ABAQUS FEA and MATLAB to name a few.</p>
+                    <p class="para-main"> Over my time at university I have trained to use many software packages. Solid Works CAD, ABAQUS FEA and MATLAB to name a few. </p>
 
-                    <p class="para-main"> Though in my spare time I like to build on my software development skills. I do this by working on small projects and carrying out mathematical programming problems on Project Euler. 
+                    <p class="para-main"> In my spare time I like to build on my software development skills. I do this by working on small projects and carrying out mathematical programming problems on Project Euler. 
                         In doing so I have a sound knowledge of python and MATLAB.
                     </p>
 
@@ -102,38 +97,39 @@
                 <hr>
                 <h5 class="titles">4th Year Project</h5>
                 <p class="para-main">
-                    I completed my 4th year individual project on the “DESIGN OF A CROSS DIE FOR SHEET METAL FORMING PROCESS”. 
-                    In which I applied my Solid Works knowledge to produce CAD models of the complete DIE design as well as accompanying Solid Works component drawings. 
-                    I was also required to learn and implement new skills in Abaqus FEA software to compute simulation testing of the DIE. I was graded an “A” for this work. 
+                    I completed my 4th year individual project on the “DESIGN OF A CROSS DIE FOR SHEET METAL FORMING PROCESS”. In which I applied my Solid Works knowledge to produce CAD models and accompanying component drawings of the complete die design. 
+                    I was also required to learn and implement new skills in Abaqus FEA software to compute simulation testing of the cross die. I achieved an “A” grade for this work. 
                 </p>
 
-                <h5 class="titles">Abstract</h5>
+                <h5 class="titles">Project Summary</h5>
                 <p class="para-main">
-                    Metal forming is the process of taking material that has already been simply formed from a shaping operation such as casting, melt extrusion or die casting and further forming it through plastic deformation into a more desired end shape. 
-                    This end shape could be the final shape of the metal or to make it better for following processes, making it suitable for machining, metal treatment, joining, etc.
+                    When working with sheet metal it is critical that the engineer has a good representation of the formability limits of a given material. This can be achieved using a materials Forming Limit Curve (FLC). 
+                    This is an essential tool for the engineer when designing sheet metal parts.
                 </p>
                     
                 <p class="para-main">
-                    There are many types of metal forming from curling, bending, punching and hydroforming for instance. 
-                    To apply these sheet metal forming techniques effectively it is important to understand how these forming techniques will affect the material being worked.
+                    Currently the two most popular testing methods for producing a materials FLC are the Nakazima and Marciniak tests. Though these testing methods prove to be very popular and effective ways in producing the FLC, they do have some drawbacks. 
                 </p>
                     
                 <p class="para-main">
-                    To get an idea of the limitations of the material and how it will perform, a number of simulations and experimental techniques can be used. 
-                    However, these methods can prove to be quite expensive and rather time consuming. A more effective solution would be to design a cross-die. 
-                    This thesis explores and proposes a design of a cross-die that will be used within the sheet metal forming process. 
+                    These testing methods require multiple tests to be carried out with material samples of varying sizes and geometries. This is required to account for the full range of the failure modes of the FLC. 
+                    This proves to be very time consuming and expensive due to materials waste and iterative testing that is required.
                 </p>
 
-                <h5 class="titles">Introduction</h5>
+                <p class="para-main">
+                    The Solution to these problems could be solved through the use of cross-die testing. The cross-die testing method is capable of comprising a broad range of stress-strain states. 
+                    This effectively allows the cross-die in a single test to achieve the same amount of data as several iterations of the Nakazima and Marciniak tests. Significantly cutting down on material waste, cost and testing time.
 
-                <h5 class="titles">Aims and Objectives</h5>
+                </p>
+
+                <h5 class="titles"> Project Aims and Objectives</h5>
                 <ul>
                     <li>Study background theory of sheet metal forming techniques to provide an understanding as to the purpose of sheet metal forming </li>
                     <li>Understand current sheet metal testing techniques and their possible shortcomings</li>
-                    <li>Provide theory on Forming Limit Diagrams</li>
+                    <li>Provide theory on Forming Limit Diagrams (Forming Limit Curve)</li>
                     <li>Provide theory on cross-die testing and how it is an effective testing method</li>
                     <li>Showcase final cross-die design</li>
-                    <li>Simulate cross dies testing in ABAQUS</li>
+                    <li>Simulate cross dies testing in ABAQUS FEA</li>
                 </ul>
             </div>
 
