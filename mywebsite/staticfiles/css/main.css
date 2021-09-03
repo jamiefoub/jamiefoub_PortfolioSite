@@ -2,8 +2,8 @@
 /* Make comments with this */
 
 body{
-    background-color: #7a7a7a!important;
-    
+    /*background-color: #7a7a7a!important;*/
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 
 .para-main{
