@@ -8,6 +8,8 @@ body{
 
 .para-main{
     text-align: justify;
+    /* Top Right Bottom Left*/
+    padding: 30px 20px 0px 20px;
 }
 
 #profile-wrapper{
