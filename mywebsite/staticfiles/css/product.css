@@ -85,4 +85,15 @@
   }
   
   .overflow-hidden { overflow: hidden; }
+
+  div.carousel-wrapper{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 5%;   
+  }
+
+  .carousel-item{
+    background-position: center;
+    background-size: cover;
+  }
   
