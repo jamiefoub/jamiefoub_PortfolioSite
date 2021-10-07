@@ -87,7 +87,7 @@
   .overflow-hidden { overflow: hidden; }
 
   div.carousel-wrapper{
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding-bottom: 5%;   
   }
@@ -97,3 +97,12 @@
     background-size: cover;
   }
   
+  .carousel-image{
+    width: 90%;
+    height: auto;
+  }
+
+  #blastwall-gif{
+    padding: 0 29.25%;
+    
+  }
