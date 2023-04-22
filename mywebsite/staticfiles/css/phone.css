@@ -1,0 +1,23 @@
+
+/* Make comments with this */
+
+body{
+    background-color: rgb(255, 255, 255)!important; 
+}
+
+.para-main{
+    text-align: left;
+    /* Top Right Bottom Left*/
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%; 
+}
+
+.titles{
+    text-align: center;
+}
+
+.project-aims-objectives{
+    padding-left: 5%;
+    padding-right: 5%;
+}

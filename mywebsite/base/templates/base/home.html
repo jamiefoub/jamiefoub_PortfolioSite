@@ -17,6 +17,9 @@
     <!-- Style Sheet from original youtube -->
     <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
     
+    <!-- Loads a different css file for phones if the screen width is below 1000px-->
+    <link media="screen and (max-width: 1000px)" href="{% static '/css/phone.css' %}" rel="stylesheet" type="text/css">
+
     <!-- Custom styles for product template -->
     <link href="{% static '/css/product.css' %}" rel="stylesheet">
 
